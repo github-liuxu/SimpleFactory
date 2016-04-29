@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "BMW.h"
+#import "Factory.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    Factory *f = [Factory new];
+    BMW *bmw320 = [f createBMW:BMW_320];
+    BMW *bmw520 = [f createBMW:BMW_520];
+    [bmw320 BMW];
+    [bmw520 BMW];
 }
 
 - (void)didReceiveMemoryWarning {

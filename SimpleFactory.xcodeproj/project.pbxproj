@@ -13,6 +13,8 @@
 		0CA146181CD3600C004A259C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA146161CD3600C004A259C /* Main.storyboard */; };
 		0CA1461A1CD3600C004A259C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA146191CD3600C004A259C /* Assets.xcassets */; };
 		0CA1461D1CD3600C004A259C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA1461B1CD3600C004A259C /* LaunchScreen.storyboard */; };
+		0CA146261CD3601F004A259C /* BMW.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA146251CD3601F004A259C /* BMW.m */; };
+		0CA146291CD36055004A259C /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA146281CD36055004A259C /* Factory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0CA146191CD3600C004A259C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA1461C1CD3600C004A259C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA1461E1CD3600C004A259C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA146241CD3601F004A259C /* BMW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMW.h; sourceTree = "<group>"; };
+		0CA146251CD3601F004A259C /* BMW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMW.m; sourceTree = "<group>"; };
+		0CA146271CD36055004A259C /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		0CA146281CD36055004A259C /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0CA146111CD3600C004A259C /* AppDelegate.m */,
 				0CA146131CD3600C004A259C /* ViewController.h */,
 				0CA146141CD3600C004A259C /* ViewController.m */,
+				0CA146241CD3601F004A259C /* BMW.h */,
+				0CA146251CD3601F004A259C /* BMW.m */,
+				0CA146271CD36055004A259C /* Factory.h */,
+				0CA146281CD36055004A259C /* Factory.m */,
 				0CA146161CD3600C004A259C /* Main.storyboard */,
 				0CA146191CD3600C004A259C /* Assets.xcassets */,
 				0CA1461B1CD3600C004A259C /* LaunchScreen.storyboard */,
@@ -149,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA146291CD36055004A259C /* Factory.m in Sources */,
 				0CA146151CD3600C004A259C /* ViewController.m in Sources */,
 				0CA146121CD3600C004A259C /* AppDelegate.m in Sources */,
+				0CA146261CD3601F004A259C /* BMW.m in Sources */,
 				0CA1460F1CD3600C004A259C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
